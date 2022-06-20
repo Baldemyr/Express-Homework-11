@@ -1,8 +1,14 @@
-let noteTitle;
-let noteText;
-let saveNoteBtn;
-let newNoteBtn;
-let noteList;
+let noteTitle = ('.note-title');
+let noteText = ('.note-textarea');
+let saveNoteBtn = ('.save-note');
+let newNoteBtn = ('.new-note');
+let noteList = ('list-container .list-group');
+
+//const $noteTitle = $(".note-title");
+//const $noteText = $(".note-textarea");
+//const $saveNoteBtn = $(".save-note");
+//const $newNoteBtn = $(".new-note");
+//const $noteList = $(".list-container .list-group");
 
 if (window.location.pathname === '/notes') {
   noteTitle = document.querySelector('.note-title');
@@ -165,7 +171,7 @@ const renderNoteList = async (notes) => {
     noteListItems.push(li);
   });
 
-  if (window.location.pathname === '/db') {
+  if (window.location.pathname === '/notes') {
     noteListItems.forEach((note) => noteList[0].append(note));
   }
 };
@@ -173,7 +179,7 @@ const renderNoteList = async (notes) => {
 // Gets notes from the db and renders them to the sidebar
 const getAndRenderNotes = () => getNotes().then(renderNoteList);
 
-if (window.location.pathname === '/db') {
+if (window.location.pathname === '/notes') {
   saveNoteBtn.addEventListener('click', handleNoteSave);
   newNoteBtn.addEventListener('click', handleNewNoteView);
   noteTitle.addEventListener('keyup', handleRenderSaveBtn);

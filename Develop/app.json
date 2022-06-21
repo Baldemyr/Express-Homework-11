@@ -1,6 +1,0 @@
-{
-    "name": "Note Taker",
-    "description": "Note Taking Application using Express",
-    "repository": "https://github.com/Baldemyr/Express-Homework-11",
-    "keywords": ["node", "express", "notes"]
-}

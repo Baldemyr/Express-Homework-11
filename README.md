@@ -8,6 +8,10 @@ Our task was to complete the coding on a simple note taking app that allowed a p
 
 Run npm I, then npm start and then navigate to localhost3000 in your browser.
 
+## Git Repository
+
+https://github.com/Baldemyr/Express-Homework-11.git
+
 ## Deployed Link
 
 https://note-taker-homew.herokuapp.com/

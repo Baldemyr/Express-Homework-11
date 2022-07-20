@@ -1,5 +1,12 @@
 # Express-Homework-11
 
+## Note Taking App
+
+Our task was to complete the coding on a simple note taking app that allowed a person to take and save notes and perhaps even delete them.
+
+## Instructions
+
+Run npm I, then npm start and then navigate to localhost3000 in your browser.
 
 ## Deployed Link
 

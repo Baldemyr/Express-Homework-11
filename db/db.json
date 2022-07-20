@@ -1,6 +1,16 @@
 [
     {
-        "title":"Test Title",
-        "text":"Test text"
-    },{"title":"My First Note!","text":"Isnt this cool? Yay! Stuff and things!","id":"8133fd90-d6a8-11eb-9d17-313f3636dae0"}]
-
+        "title": "Title Test",
+        "text": "Title test text"
+    },
+    {
+        "title": "ID test",
+        "text": "Testing ID functionality",
+        "note_id": "1000001"
+    },
+    {
+        "title": "Final Test",
+        "text": "Just to make me feel better",
+        "note_id": "100002"
+    }
+]
